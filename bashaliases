@@ -1,0 +1,4 @@
+alias csc='find . -iname "*.c" -o -iname "*.cpp" -o -iname "*.h" -o -iname "*.hpp"  -o -iname "*.cc"  > cscope.files; cscope -q -R -b -i cscope.files; ctags -R * '
+
+alias cs='cscope -dC'
+
